@@ -79,27 +79,20 @@ section{
     background-size: cover;
     background-position: center;
 }
- .image{
-    height: 90vh;
-    margin-top: 7rem;
-    width: 40vw;
-    margin-left: 12rem;
-    position: relative;
-    /* background-color: aqua; */
-
+.home  .hexa{
+    height: 400px;
+    width: 400px;
+    margin-left: 15%;
+    background-color: #00abfe;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
 }
-.home .image .hexa{
-    position: relative;
+.hexa .pic{
     height: 100%;
     width: 100%;
     object-fit: cover;
-    object-position: 50% 15%;
-   /* background-color: #00abfe; */
-    /* margin-left: 20%;
-    margin-top: -5%; */
-    /* border: 0.3rem solid var(--main-color); */
-    border-radius: 0.9rem;
-    overflow: hidden;
+    object-position: -50% -20%;
+    margin: 3.5rem 1rem 0 0.95rem;
+    rotate: -6deg;
 }
 .home .image .pic{
     position: absolute;
@@ -240,7 +233,7 @@ section{
 .home-sci{
     position: absolute;
     bottom: 4rem;
-    width: 210px;
+    width: 230px;
     display: flex;
     justify-content: space-between;
 }
@@ -505,6 +498,12 @@ section{
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(4) .bar span{
     width: 65%;
+}
+.skills-column:nth-child(1) .skills-content .progress:nth-child(5) .bar span{
+    width: 67%;
+}
+.skills-column:nth-child(1) .skills-content .progress:nth-child(6) .bar span{
+    width: 63%;
 }
 
 
